@@ -1,0 +1,20 @@
+{
+	"servidorTravian":"tx2",
+	"dominioServTravian":"fr",
+  "canalReporteAtaquesID": "503710812570124288",
+	"canalReportelogAtaquesID": "503712357847924737",
+	"canalReservasAldeasPendientes": "503710947504816129",
+	"canalReservasAldeas": "503711745064566812",
+	"alianzas": [
+                {
+                    "nombre": "@ally1", "limIzq": 30, "limInf":50, "limDer":150, "limSup":100, "codTravian":0
+                },{
+                    "nombre": "@ally2", "limIzq": -10, "limInf":0, "limDer":0, "limSup":10, "codTravian":0
+                },{
+                    "nombre": "@ally3", "limIzq": -10, "limInf":-10, "limDer":0, "limSup":0, "codTravian":0
+                },{
+                    "nombre": "@ally4", "limIzq": -50, "limInf":40, "limDer":0, "limSup":125, "codTravian":0
+                }
+            ]
+
+}
