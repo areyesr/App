@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 //const settings = require('../settings.json');
 const confTravian = require('../confTravian.json');
 const funciones = require("../function/funciones.js");
-const Report = require("../models/reports.js");
+//const Report = require("../models/reports.js");
 
 module.exports.run = async (client, message, args) => {
 //if(message.author.id != '393561088756809729') return;
@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
     }else if (estaAlly != '') {
       var resul = funciones.verLimitesAlly(estaAlly);
         const msgAlly = new Discord.RichEmbed()
-        .setTitle(`<a:att1v2:496880338367283202> Alianza - ${estaAlly}`)
+        .setTitle(`<a:g18ltr:496525362780438550> Alianza - ${estaAlly}`)
         .setColor('0xe8b548')
         .addField(`La alianza a la que perteneces es a la ${estaAlly}`,`\n${resul}\n`,true)
         .setThumbnail(`https://gpack.travian.com/a4511576/mainPage/img_ltr/welcomeScreen/riseOfAlliances/senator-ltr.png`)

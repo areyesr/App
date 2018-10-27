@@ -104,6 +104,6 @@ exports.conf = {
 };
 exports.help = {
   name: 'meAtaca',
-  description: 'comando para registrar algun ataque que se recibe. Se registrará dentro del canal <#reg-ataq-recib>',
+  description: 'comando para registrar algun ataque que se recibe. Se registrará dentro del canal <#ataques-en-camino>',
   usage: 'meAtaca <jugador atacante>; <aldea atacante ej: (-1,10)>; <jugador atacado>; <aldea atacada ej:ej: (-1,10)>; <hora llegada servidor ej: 14:00:02>; <numero trenes>'
 };

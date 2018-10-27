@@ -7,7 +7,7 @@ const confTravian = require('../confTravian.json');
 //mongoose.connect('mongodb://localhost/Reports');
 
 module.exports.run = (client, message, args) => {
-  mongoose.connect("mongodb://localhost/Funda", {
+  mongoose.connect("mongodb+srv://s00a:Fraktalg2g.1@cluster0-delfw.mongodb.net/admin/Funda", {
     useNewUrlParser: true
   });
 

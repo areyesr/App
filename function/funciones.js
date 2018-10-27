@@ -75,7 +75,7 @@ function cancelarReserva(client,x1,y1) {
 }
 
 function verificarReserva(allyV,x1,y1){
-
+let allyAux;
   allyAux = confTravian.alianzas.filter(ally =>
     ally.nombre === allyV &&
     ally.limIzq <= x1 && ally.limDer >= x1 &&
@@ -90,6 +90,7 @@ function verificarReserva(allyV,x1,y1){
 
 
 function verLimitesAlly(ally){
+  let allyAux;
   allyAux = confTravian.alianzas.filter(function(allyV){
     return (allyV.nombre == ally);
   });
